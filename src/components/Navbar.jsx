@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 export default function Navbar() {
   return (
     <div className="absolute w-full h-12 z-50 top-0 left-0 text-4xl ">
-      <div className="flex justify-between items-center p-12 border-b border-black">
+      <div className="flex h-12 justify-between items-center p-12 border-b border-black">
         <Link to="/">
           <img
-            className="h-20 w-20 border-2 border-black rounded-full"
+            className="h-20 w-20 "
             src="../../public/Logo+Remy_Def_Noir+PNG.png"
             alt="logo"
           />
