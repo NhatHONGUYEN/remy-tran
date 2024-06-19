@@ -5,8 +5,25 @@ import About from "./pages/About";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
+import Lenis from "@studio-freight/lenis";
+import { useEffect } from "react";
 
 function App() {
+  const lenis = new Lenis();
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+
+  useEffect(() => {
+    return () => {
+      lenis.destroy();
+    };
+  }, [lenis]);
+
   return (
     <>
       <Routes>
