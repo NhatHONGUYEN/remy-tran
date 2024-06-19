@@ -34,7 +34,7 @@ export default function Work() {
   const [hoveredImage, setHoveredImage] = useState(null);
 
   return (
-    <div className="w-full h-screen flex p-20 relative">
+    <div className="w-full h-screen flex p-20 mb-36 relative">
       <div className="ml-40">
         <h1 className="text-9xl border-2 border-black hover:scale-125 transition-transform duration-300 rounded-full p-10 font-semibold">
           Work
