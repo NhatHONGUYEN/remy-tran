@@ -20,8 +20,8 @@ export default function FrontPage() {
       <div className="absolute w-[18%] top-[15%] left-72 -z-50">
         <img src="/Chill_Render_DEF.jpg" alt="chill" />
       </div>
-      <div className="w-[400%] top-[52vh] absolute overflow-hidden">
-        <p className="text-[380px] animate-marquee whitespace-nowrap border-t-2  border-b-2 border-gray-900">
+      <div className="w-screen top-[52vh] absolute  border-t-2  border-b-2 border-gray-900 overflow-hidden">
+        <p className="text-[380px] animate-marquee whitespace-nowrap">
           Rémy Tran - Rémy Tran - Rémy Tran - Rémy Tran - Rémy Tran - Rémy Tran
           - Rémy Tran - Rémy Tran - Rémy Tran - Rémy Tran - Rémy Tran - Rémy
           Tran -

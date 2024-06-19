@@ -8,7 +8,7 @@ export default function Navbar() {
         <Link to="/">
           <img
             className="h-20 w-20 "
-            src="../../public/Logo+Remy_Def_Noir+PNG.png"
+            src="/Logo+Remy_Def_Noir+PNG.png"
             alt="logo"
           />
         </Link>
