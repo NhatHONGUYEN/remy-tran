@@ -40,8 +40,10 @@ export default function Home() {
       <FrontPage />
       <About />
       <div className="w-full h-screen flex p-20 relative">
-        <div>
-          <h1 className="text-9xl font-semibold">Work</h1>
+        <div className="ml-40">
+          <h1 className="text-9xl border-2 border-black rounded-full p-10  font-semibold">
+            Work
+          </h1>
         </div>
         <div>
           {hoveredImage && (
