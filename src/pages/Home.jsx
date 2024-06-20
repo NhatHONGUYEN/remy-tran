@@ -29,6 +29,7 @@ export default function Home() {
       <About />
       <Work />
       <ParallaxScroll images={images} className="bg-black" />
+      <Contact />
     </div>
   );
 }
